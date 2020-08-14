@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Todoey
+//  CoreDataExample
 //
-//  Created by Philipp Muellauer on 02/12/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
+//  Created by Michael Adair on 13/08/2020.
+//  Copyright © 2020 Michael Adair. All rights reserved.
 //
 
 import UIKit

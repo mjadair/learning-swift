@@ -64,7 +64,7 @@ tryThis("Here's a name")
 
 // Extensions =================================================================
 
-// Extensions allow us to extend the functionality of an existing function. 
+// Extensions allow us to extend the functionality of an existing function.
 
 // This extension method allows us to write an extension to the existing Double method - it allows us to specify the decimal places that the number is rounded to.
 extension Double {
@@ -85,3 +85,24 @@ var myDouble = 3.14159
 print(myDouble.round(to: 2))
 
 
+
+
+// Loops - Fibonacci ==========================================================================
+
+func fibonacci(_ n: Int) -> [Int] {
+    var num: Int = 0
+    var array: [Int] = [0, 1, 1]
+    
+    while (num < n) {
+        if (num >= 3) {
+            array.append(array[num - 2] + array[num - 1])
+        }
+        num += 1
+    }
+    
+   return array
+}
+
+
+
+print(fibonacci(10))
